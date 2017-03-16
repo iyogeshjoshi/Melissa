@@ -111,6 +111,7 @@ Temporary Items
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # C extensions
 
@@ -242,5 +243,25 @@ Session.vim
 .netrwhist
 # auto-generated tag files
 tags
+# user profile
+profile.yaml
 
 # End of https://www.gitignore.io/api/python,c,cpp,code,sublimetext,vim,macos,linux
+
+# Created by https://www.gitignore.io/api/virtualenv
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# End of https://www.gitignore.io/api/virtualenv
