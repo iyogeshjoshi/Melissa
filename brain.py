@@ -1,4 +1,4 @@
-from GreyMatter import general_conversations
+from GreyMatter import tell_time, general_conversations
 
 def brain(name, speech_text):
     def check_message(check):
@@ -17,12 +17,14 @@ def brain(name, speech_text):
     elif check_message(['how', 'i', 'look'] or ['how', 'am' 'i']):
         general_conversations.how_am_i()
     elif check_message(['tell', 'joke']):
-        general_conversations.tell_jooke()
+        general_conversations.tell_joke()
     elif check_message(['who', 'am', 'i']):
         general_conversations.who_am_i(name)
-    elif check_message('where', 'born'):
+    elif check_message(['where', 'born']):
         general_conversations.where_born()
     elif check_message(['how', 'are', 'you']):
         general_conversations.how_are_you()
+    elif check_message(['what', 'time']):
+        tell_time.what_is_time()
     else:
         general_conversations.undefined()

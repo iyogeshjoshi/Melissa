@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/python,c,cpp,code,sublimetext,vim,macos,linux
 
 ### C ###
@@ -245,6 +244,7 @@ Session.vim
 tags
 # user profile
 profile.yaml
+*.wav
 
 # End of https://www.gitignore.io/api/python,c,cpp,code,sublimetext,vim,macos,linux
 
